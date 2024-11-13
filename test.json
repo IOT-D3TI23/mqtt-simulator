@@ -1,0 +1,29 @@
+{
+  "id": "post123",
+  "userId": "user456",
+  "content": "Liburan ke pantai!",
+  "mediaType": "image",
+  "mediaUrl": "pantai.jpg",
+  "location": "Bali",
+  "likes": 150,
+  "comments": [
+    {
+      "userId": "user789",
+      "text": "Wah, keren!",
+      "timestamp": "2024-03-13T10:30:00Z"
+    },
+    {
+      "userId": "user101",
+      "text": "Dimana ini?",
+      "timestamp": "2024-03-13T10:35:00Z",
+      "replies": [
+        {
+          "userId": "user456",
+          "text": "Di Pantai Kuta",
+          "timestamp": "2024-03-13T10:40:00Z"
+        }
+      ]
+    }
+  ],
+  "timestamp": "2024-03-13T10:00:00Z"
+}
